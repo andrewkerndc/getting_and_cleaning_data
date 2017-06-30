@@ -1,5 +1,5 @@
-## Average dataset CodeBook
+# Average dataset CodeBook
 
-# Variables
+## Variables
 
-# Data Cleaning Process
+## Data Cleaning Process
