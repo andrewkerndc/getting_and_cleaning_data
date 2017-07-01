@@ -69,5 +69,7 @@ average <- summarize(average, `tBodyAccMag-mean()` = mean(`tBodyAccMag-mean()`),
                      `fBodyBodyGyroJerkMag-std()` = mean(`fBodyBodyGyroJerkMag-std()`)
 )
 
-# Display the output of the newly created summary data
+# Display the output of the newly created summary data and write the 
+# result to a file
+write.table(average, row.names = FALSE)
 print(average)
